@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { ArrowRight } from "lucide-react";
+import MessageGenerator from "@/components/MessageGenerator";
 
 const Index = () => {
   return (
@@ -17,6 +18,8 @@ const Index = () => {
             Create and test your Farcaster Frames
           </p>
         </div>
+
+        <MessageGenerator />
 
         <Card className="p-6 space-y-4">
           <div className="space-y-2">
