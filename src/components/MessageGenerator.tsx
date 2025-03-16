@@ -16,7 +16,7 @@ const MessageGenerator = () => {
   return (
     <Card className="p-6 space-y-4 text-center max-w-lg mx-auto">
       <div className="space-y-2">
-        <h2 className="text-2xl font-semibold tracking-tight">Daily Inspiration</h2>
+        <h2 className="text-2xl font-semibold tracking-tight">OM Generator</h2>
         <p className="text-muted-foreground">Let the universe speak to your soul</p>
       </div>
       <p className="text-xl italic py-4">{message}</p>
