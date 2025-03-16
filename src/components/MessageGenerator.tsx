@@ -4,13 +4,20 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Sparkles } from "lucide-react";
 import { positiveMessages } from "@/data/positiveMessages";
+import { useConnect } from 'wagmi';
 
 const MessageGenerator = () => {
   const [message, setMessage] = useState(positiveMessages[0]);
+  const { connect, connectors } = useConnect();
 
   const generateMessage = () => {
     const randomIndex = Math.floor(Math.random() * positiveMessages.length);
     setMessage(positiveMessages[randomIndex]);
+  };
+
+  const handleFrameAction = async () => {
+    // Handle Frame action when button is clicked
+    generateMessage();
   };
 
   return (
@@ -20,7 +27,7 @@ const MessageGenerator = () => {
         <p className="text-muted-foreground">Let the universe speak to your soul</p>
       </div>
       <p className="text-xl italic py-4">{message}</p>
-      <Button onClick={generateMessage} className="w-full">
+      <Button onClick={handleFrameAction} className="w-full">
         <Sparkles className="mr-2 h-4 w-4" />
         Generate New Message
       </Button>
