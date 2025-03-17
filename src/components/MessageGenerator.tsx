@@ -26,7 +26,7 @@ const MessageGenerator = () => {
         <img 
           src="/icon.png" 
           alt="OM Oracle" 
-          className="mx-auto w-40 h-auto rounded-lg shadow-md" 
+          className="mx-auto w-64 h-auto rounded-lg shadow-md" 
         />
         <h2 className="text-2xl font-semibold tracking-tight mt-4">OM Generator</h2>
         <p className="text-muted-foreground">Let the universe speak to your soul</p>
