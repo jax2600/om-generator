@@ -24,7 +24,7 @@ const MessageGenerator = () => {
     <Card className="p-6 space-y-4 text-center max-w-lg mx-auto">
       <div className="space-y-2">
         <img 
-          src="https://lovable-public.s3.amazonaws.com/9b92fb84-f976-4fb5-a6ab-b125011eb0ff.png" 
+          src="https://drive.google.com/uc?export=view&id=17j5sLJ6uP88AWzBnaG1-KQGgOcqHyJ8Q" 
           alt="OM Oracle" 
           className="mx-auto w-64 h-auto rounded-lg shadow-md" 
         />

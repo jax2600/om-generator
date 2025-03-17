@@ -8,11 +8,11 @@
   "frame": {
     "version": "1",
     "name": "OM Generator",
-    "iconUrl": "https://lovable-public.s3.amazonaws.com/9b92fb84-f976-4fb5-a6ab-b125011eb0ff.png",
+    "iconUrl": "https://drive.google.com/uc?export=view&id=17j5sLJ6uP88AWzBnaG1-KQGgOcqHyJ8Q",
     "homeUrl": "https://om-generator.lovable.app",
-    "imageUrl": "https://om-generator.lovable.app/og-image.png",
+    "imageUrl": "https://drive.google.com/uc?export=view&id=17j5sLJ6uP88AWzBnaG1-KQGgOcqHyJ8Q",
     "buttonTitle": "Generate New Message",
-    "splashImageUrl": "https://lovable-public.s3.amazonaws.com/9b92fb84-f976-4fb5-a6ab-b125011eb0ff.png",
+    "splashImageUrl": "https://drive.google.com/uc?export=view&id=1ufKPCVv8rXLMSulyM54wNO1r0wxyvvmK",
     "splashBackgroundColor": "#eeccff",
     "webhookUrl": "https://om-generator.lovable.app/api/webhook"
   }
