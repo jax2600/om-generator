@@ -20,7 +20,7 @@ const MessageGenerator = () => {
   };
   return <Card className="p-6 space-y-4 text-center max-w-lg mx-auto border-opacity-30">
       <div className="space-y-2">
-        <img alt="OM Oracle" className="mx-auto w-72 h-auto rounded-lg shadow-md object-contain" src="https://github.com/jax2600/om-generator/blob/main/public/image.png" />
+        <img alt="OM Oracle" className="mx-auto w-72 h-auto rounded-lg shadow-md object-contain" src="public/image.png" />
         <h2 className="tracking-tight mt-4 font-serif text-4xl font-semibold">OM Generator</h2>
         <p className="text-muted-foreground font-serif">Let the universe speak to your soul</p>
       </div>
