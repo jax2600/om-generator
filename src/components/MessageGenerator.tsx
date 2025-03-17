@@ -20,7 +20,7 @@ const MessageGenerator = () => {
   };
   return <Card className="p-6 space-y-4 text-center max-w-lg mx-auto border-opacity-30">
       <div className="space-y-2">
-        <img alt="OM Oracle" src="/lovable-uploads/cccf04fc-7700-410d-a3a4-ccd9b5ffda72.jpg" className="mx-auto w-72 h-auto rounded-lg shadow-md object-contain" />
+        <img alt="OM Oracle" className="mx-auto w-72 h-auto rounded-lg shadow-md object-contain" src="/lovable-uploads/204c5364-1337-4b94-a2a3-deccae254f19.jpg" />
         <h2 className="tracking-tight mt-4 font-serif text-4xl font-semibold">OM Generator</h2>
         <p className="text-muted-foreground font-serif">Let the universe speak to your soul</p>
       </div>
