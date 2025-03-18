@@ -20,7 +20,7 @@
       {
         "label": "Share to Farcaster",
         "action": "link",
-        "target": "https://warpcast.com/~/compose"
+        "target": "https://warpcast.com/~/compose?text=Check out this message from the OM Generator by @jacque&embeds[]=https://om-generator.lovable.app"
       }
     ],
     "splashImageUrl": "https://om-generator.lovable.app/splash.png",

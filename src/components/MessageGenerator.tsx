@@ -32,12 +32,12 @@ const MessageGenerator = () => {
           className="mx-auto w-72 h-auto rounded-lg shadow-md object-contain" 
           src="/image.png" 
         />
-        <h2 className="tracking-tight mt-4 font-caviar text-5xl font-bold text-white">OM Generator</h2>
-        <p className="text-muted-foreground font-caviar text-lg">Let the universe speak to your soul</p>
+        <h2 className="tracking-tight mt-4 font-caviar text-6xl font-bold text-white">OM Generator</h2>
+        <p className="text-muted-foreground font-caviar text-xl">Let the universe speak to your soul</p>
       </div>
-      <p className="text-2xl italic py-4 font-caviar text-amber-100">{message}</p>
-      <Button onClick={handleFrameAction} className="w-full font-caviar text-lg font-bold text-black bg-purple-200 hover:bg-purple-300">
-        <Sparkles className="mr-2 h-5 w-5" />
+      <p className="text-3xl italic py-6 font-caviar text-amber-100">{message}</p>
+      <Button onClick={handleFrameAction} className="w-full font-caviar text-xl font-bold text-black bg-purple-200 hover:bg-purple-300">
+        <Sparkles className="mr-2 h-6 w-6" />
         Generate New Message
       </Button>
       <FrameEmbed message={message} />

@@ -2,7 +2,6 @@
 import { positiveMessages } from "../data/positiveMessages";
 
 // This file would be served at /api/webhook in a production environment
-// For now, this is a placeholder - in a real deployment, you'd need server-side code
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
