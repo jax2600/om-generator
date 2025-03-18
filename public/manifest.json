@@ -6,14 +6,25 @@
     "signature": "MHgxOTJmYjQzNzhkZjYyZmEzMjQ2M2MwNDc0NTNkZGFjMTVmN2Q3M2M0MzcxNzRhMzE1MWFmZjBhODNjMThmZDM5NTg5MDBlMmNkMGU1MjA3Yjc4Nzc0ZTUwMWQyMTZkNzFlYjg5YjQxNWQyZWExOGE4MjM5MDM2MWJiNzA3YTZiMzFj"
   },
   "frame": {
-    "version": "1",
+    "version": "vNext",
     "name": "OM Generator",
-    "iconUrl": "https://drive.google.com/uc?export=view&id=17j5sLJ6uP88AWzBnaG1-KQGgOcqHyJ8Q",
+    "iconUrl": "https://om-generator.lovable.app/image.png",
     "homeUrl": "https://om-generator.lovable.app",
-    "imageUrl": "https://drive.google.com/uc?export=view&id=17j5sLJ6uP88AWzBnaG1-KQGgOcqHyJ8Q",
+    "imageUrl": "https://om-generator.lovable.app/image.png",
     "buttonTitle": "Generate New Message",
-    "splashImageUrl": "https://drive.google.com/uc?export=view&id=1ufKPCVv8rXLMSulyM54wNO1r0wxyvvmK",
-    "splashBackgroundColor": "#eeccff",
+    "buttons": [
+      {
+        "label": "Generate New Message",
+        "action": "post"
+      },
+      {
+        "label": "Share to Farcaster",
+        "action": "link",
+        "target": "https://warpcast.com/~/compose"
+      }
+    ],
+    "splashImageUrl": "https://om-generator.lovable.app/image.png",
+    "splashBackgroundColor": "#1a1a2e",
     "webhookUrl": "https://om-generator.lovable.app/api/webhook"
   }
 }
