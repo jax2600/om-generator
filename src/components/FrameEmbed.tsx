@@ -49,7 +49,7 @@ const FrameEmbed = ({ message }: FrameEmbedProps) => {
     <div className="flex flex-col sm:flex-row gap-2 mt-4">
       <Button 
         onClick={shareToFarcaster} 
-        className="flex-1 font-serif bg-blue-600 hover:bg-blue-700"
+        className="flex-1 font-serif font-bold text-black bg-purple-200 hover:bg-purple-300"
         disabled={isSharing}
       >
         <Share2 className="mr-2 h-4 w-4" />
@@ -58,7 +58,7 @@ const FrameEmbed = ({ message }: FrameEmbedProps) => {
       
       <Button
         onClick={copyToClipboard}
-        className="flex-1 font-serif"
+        className="flex-1 font-serif font-bold text-black bg-purple-200 hover:bg-purple-300"
         disabled={copied}
       >
         {copied ? (

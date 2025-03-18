@@ -23,7 +23,7 @@
         "target": "https://warpcast.com/~/compose"
       }
     ],
-    "splashImageUrl": "https://om-generator.lovable.app/image.png",
+    "splashImageUrl": "https://om-generator.lovable.app/splash.png",
     "splashBackgroundColor": "#1a1a2e",
     "webhookUrl": "https://om-generator.lovable.app/api/webhook"
   }

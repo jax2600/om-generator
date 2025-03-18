@@ -36,7 +36,7 @@ const MessageGenerator = () => {
         <p className="text-muted-foreground font-serif">Let the universe speak to your soul</p>
       </div>
       <p className="text-xl italic py-4 font-serif text-amber-100">{message}</p>
-      <Button onClick={handleFrameAction} className="w-full font-serif bg-purple-700 hover:bg-purple-800">
+      <Button onClick={handleFrameAction} className="w-full font-serif font-bold text-black bg-purple-200 hover:bg-purple-300">
         <Sparkles className="mr-2 h-4 w-4" />
         Generate New Message
       </Button>

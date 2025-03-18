@@ -26,7 +26,7 @@ export default async function handler(req, res) {
               {
                 label: "Share to Farcaster",
                 action: "link",
-                target: "https://warpcast.com/~/compose?text=Check%20out%20this%20message%20from%20the%20OM%20Generator%3A%20" + encodeURIComponent(message) + "&embeds[]=https://om-generator.lovable.app"
+                target: "https://warpcast.com/~/compose?text=" + encodeURIComponent(`Check out this message from the OM Generator: ${message}`) + "&embeds[]=https://om-generator.lovable.app"
               }
             ],
             title: "OM Generator",
