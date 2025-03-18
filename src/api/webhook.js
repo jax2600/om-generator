@@ -26,12 +26,12 @@ export default async function handler(req, res) {
               {
                 label: "Share to Farcaster",
                 action: "link",
-                target: "https://warpcast.com/~/compose?text=" + encodeURIComponent(`Check out this message from the OM Generator: ${message}`) + "&embeds[]=https://om-generator.lovable.app"
+                target: "https://warpcast.com/~/compose?text=" + encodeURIComponent(`Check out this message from the OM Generator: ${message} by @jacque`) + "&embeds[]=https://om-generator.lovable.app"
               }
             ],
             title: "OM Generator",
             ogTitle: "OM Generator - Spiritual Messages",
-            ogDescription: message
+            ogDescription: message + " by @jacque"
           }
         })
       };

@@ -19,7 +19,7 @@ const FrameEmbed = ({ message }: FrameEmbedProps) => {
     setIsSharing_(true);
     
     try {
-      const shareText = `Check out this message from the OM Generator: ${message}`;
+      const shareText = `Check out this message from the OM Generator: ${message} by @jacque`;
       const shareUrl = window.location.origin;
       
       const fullShareUrl = new URL("https://warpcast.com/~/compose");
@@ -36,7 +36,7 @@ const FrameEmbed = ({ message }: FrameEmbedProps) => {
   
   const copyToClipboard = async () => {
     try {
-      const clipboardText = `${message} - From the OM Generator: ${window.location.origin}`;
+      const clipboardText = `${message} - From the OM Generator by @jacque: ${window.location.origin}`;
       await navigator.clipboard.writeText(clipboardText);
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -49,26 +49,26 @@ const FrameEmbed = ({ message }: FrameEmbedProps) => {
     <div className="flex flex-col sm:flex-row gap-2 mt-4">
       <Button 
         onClick={shareToFarcaster} 
-        className="flex-1 font-serif font-bold text-black bg-purple-200 hover:bg-purple-300"
+        className="flex-1 font-caviar text-lg font-bold text-black bg-purple-200 hover:bg-purple-300"
         disabled={isSharing}
       >
-        <Share2 className="mr-2 h-4 w-4" />
+        <Share2 className="mr-2 h-5 w-5" />
         Share to Farcaster
       </Button>
       
       <Button
         onClick={copyToClipboard}
-        className="flex-1 font-serif font-bold text-black bg-purple-200 hover:bg-purple-300"
+        className="flex-1 font-caviar text-lg font-bold text-black bg-purple-200 hover:bg-purple-300"
         disabled={copied}
       >
         {copied ? (
           <>
-            <Check className="mr-2 h-4 w-4" />
+            <Check className="mr-2 h-5 w-5" />
             Copied!
           </>
         ) : (
           <>
-            <Clipboard className="mr-2 h-4 w-4" />
+            <Clipboard className="mr-2 h-5 w-5" />
             Copy to Clipboard
           </>
         )}

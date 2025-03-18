@@ -22,6 +22,7 @@ export default {
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         serif: ["Cormorant Garamond", "serif"],
+        caviar: ["Caviar Dreams", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
