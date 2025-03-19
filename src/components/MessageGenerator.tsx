@@ -1,18 +1,23 @@
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Sparkles } from "lucide-react";
+import { Radio } from "lucide-react";
 import { positiveMessages } from "@/data/positiveMessages";
 import { useConnect } from 'wagmi';
 import FrameEmbed from './FrameEmbed';
 
 const MessageGenerator = () => {
-  const [message, setMessage] = useState(positiveMessages[0]);
+  const [message, setMessage] = useState("");
   const {
     connect,
     connectors
   } = useConnect();
+
+  useEffect(() => {
+    // Generate a random message when component mounts
+    generateMessage();
+  }, []);
 
   const generateMessage = () => {
     const randomIndex = Math.floor(Math.random() * positiveMessages.length);
@@ -35,10 +40,10 @@ const MessageGenerator = () => {
         <h2 className="tracking-tight mt-4 font-caviar text-6xl font-bold text-white">OM Generator</h2>
         <p className="text-muted-foreground font-caviar text-xl">Let the universe speak to your soul</p>
       </div>
-      <p className="text-3xl italic py-6 font-caviar text-amber-100">{message}</p>
+      <p className="text-3xl italic py-6 font-caviar text-amber-100">{message || "Generate a message just for you..."}</p>
       <Button onClick={handleFrameAction} className="w-full font-caviar text-xl font-bold text-black bg-purple-200 hover:bg-purple-300">
-        <Sparkles className="mr-2 h-6 w-6" />
-        Generate New Message
+        <Radio className="mr-2 h-6 w-6" />
+        Casters speak seer hears
       </Button>
       <FrameEmbed message={message} />
     </Card>

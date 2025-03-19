@@ -19,7 +19,7 @@ export default async function handler(req, res) {
             image: "https://om-generator.lovable.app/image.png",
             buttons: [
               {
-                label: "Generate New Message",
+                label: "Casters speak seer hears",
                 action: "post"
               },
               {

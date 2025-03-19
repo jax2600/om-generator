@@ -11,10 +11,10 @@
     "iconUrl": "https://om-generator.lovable.app/image.png",
     "homeUrl": "https://om-generator.lovable.app",
     "imageUrl": "https://om-generator.lovable.app/image.png",
-    "buttonTitle": "Generate New Message",
+    "buttonTitle": "Casters speak seer hears",
     "buttons": [
       {
-        "label": "Generate New Message",
+        "label": "Casters speak seer hears",
         "action": "post"
       },
       {
